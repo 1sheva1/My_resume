@@ -1,0 +1,147 @@
+.page__content {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.resume {
+  display: flex;
+  margin: 5px 70px;
+}
+
+.short-info {
+  width: calc(100vw - 140px - 65%);
+  background-color: #3A3845;
+  padding: 20px 20px;
+}
+.short-info__list {
+  padding: 0;
+}
+
+.img-main {
+  width: 100%;
+  border-radius: 50%;
+  background-image: url(../logo.jpg);
+}
+
+.info-block {
+  padding: 10px 20px;
+}
+.info-block__title {
+  margin: 0 0 15px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 25px;
+}
+.title--light {
+  color: #F7CCAC;
+}
+.title--broun {
+  color: #826F66;
+}
+.title--purple {
+  color: #3A3845;
+}
+.title--big {
+  font-size: 38px;
+  margin: 0 0 25px;
+}
+
+.description--bold {
+  font-weight: bold;
+}
+.description--purple {
+  color: #3A3845;
+}
+
+.list-info {
+  color: #F7CCAC;
+  font-size: 16px;
+}
+.list-info--dark-list {
+  color: #3A3845;
+}
+.list-info--tab {
+  margin-left: 20px;
+}
+.list-info--unmarker {
+  list-style: none;
+}
+.list-info__item {
+  margin: 10px 0;
+}
+.list-info__item::marker {
+  color: #826F66;
+}
+.list-info__item--upper {
+  text-transform: uppercase;
+}
+
+.detail-info {
+  min-width: calc(100vw - 140px - 35%);
+  background-color: #F7CCAC;
+  padding: 30px 70px;
+  box-sizing: border-box;
+}
+.detail-info__title {
+  margin: 0 0 20px;
+}
+.detail-info__block-info {
+  max-width: 420px;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+.block-info {
+  padding: 10px 0;
+}
+.block-info__title {
+  margin: 0 0 30px;
+}
+.block-info__description {
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #3A3845;
+}
+
+.block-work__title {
+  margin: 0 0 20px;
+}
+.block-work__time {
+  color: #826F66;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.work-place {
+  display: flex;
+  gap: 5px;
+}
+.work-place__subtitle {
+  margin: 0 0 5px;
+}
+
+@media (max-width: 480px) {
+  .resume {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .img-main {
+    width: 100%;
+  }
+
+  .short-info {
+    width: calc(100% - 40px);
+  }
+
+  .detail-info {
+    width: 100%;
+    padding: 30px 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
